@@ -1,6 +1,6 @@
 # Nginx Sticky Module 
 
-Compat: Nginx 1.25.1
+Compat: Nginx 1.25.1: http://nginx.org/download/nginx-1.25.1.tar.gz
 
 
 modified and extended version; see Changelog.txt 
