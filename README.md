@@ -1,5 +1,7 @@
 # Nginx Sticky Module 
 
+Compat: Nginx 1.25.1
+
 
 modified and extended version; see Changelog.txt 
 
