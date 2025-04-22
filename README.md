@@ -37,6 +37,10 @@ Modify your compile of Nginx by adding the following directive
 (modified to suit your path of course):
 
     ./configure ... --add-module=/absolute/path/to/nginx-sticky-module-ng
+    
+    exemple:	
+    ./configure --with-compat   --prefix=/etc/nginx   --sbin-path=/usr/sbin/nginx   --conf-path=/etc/nginx/nginx.conf   --pid-path=/var/run/nginx.pid   --lock-path=/var/run/nginx.lock   --with-http_ssl_module   --with-http_v2_module   --with-http_gzip_static_module   --with-http_stub_status_module   --with-http_realip_module   --with-http_sub_module   --with-stream   --with-http_secure_link_module   --add-module=/app/nginx-1.25.1/nginx-sticky-module-ng/
+    
     make
     make install
 
